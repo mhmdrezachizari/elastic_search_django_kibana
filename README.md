@@ -1,6 +1,6 @@
-    # Store
+# Store
     
-    A simple backend project built with **Django**, **DRF**, **Elasticsearch**, and **Kibana** for managing, searching, and indexing store data.
+ A simple backend project built with **Django**, **DRF**, **Elasticsearch**, and **Kibana** for managing, searching, and indexing store data.
     
  <p align="center">
       <img src="https://img.shields.io/badge/Django-4.x-092E20?style=for-the-badge&logo=django&logoColor=white" />
@@ -11,21 +11,21 @@
     
     ---
     
-    ## Features
+## Features
     
-    - REST API with Django REST Framework
-    - Fast search with Elasticsearch
-    - Data visualization with Kibana
-    - Bulk data indexing support
+ - REST API with Django REST Framework
+ - Fast search with Elasticsearch
+ - Data visualization with Kibana
+ - Bulk data indexing support
     
-    ---
+---
     
-    ## Stack
+## Stack
     
-    - Django
-    - Django REST Framework
-    - Elasticsearch
-    - Kibana
+ - Django
+ - Django REST Framework
+ - Elasticsearch
+- Kibana
     
     ---
     
