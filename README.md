@@ -9,7 +9,7 @@
       <img src="https://img.shields.io/badge/Kibana-Analytics-652D90?style=for-the-badge&logo=kibana" />
 </p>
     
-    ---
+ ---
     
 ## Features
     
@@ -27,18 +27,16 @@
  - Elasticsearch
 - Kibana
     
-    ---
+ ---
     
-    ## Project Flow
-    ```mermaid
-    flowchart LR
-    A[Client] --> B[Django / DRF]
-    B --> C[(Database)]
-    B --> D[(Elasticsearch)]
-    D --> E[Kibana]
-    
-    ---
-    
+## Project Flow
+ ```mermaid
+ flowchart LR
+ A[Client] --> B[Django / DRF]
+  B --> C[(Database)]
+  B --> D[(Elasticsearch)]
+  D --> E[Kibana]
+---
     ## Run
     
     bash
