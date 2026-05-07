@@ -29,15 +29,7 @@ A simple backend project built with **Django**, **DRF**, **Elasticsearch**, and 
 
 ---
 
-## Project Flow
-```mermaid
-flowchart LR
-A[Client] --> B[Django / DRF]
-B --> C[(Database)]
-B --> D[(Elasticsearch)]
-D --> E[Kibana]
 
----
 
 ## Run
 
@@ -61,7 +53,3 @@ python manage.py runserver
 
 MIT
 
-
-- badgeها مرتب‌تر باشن
-- emoji هم داشته باشه
-- برای GitHub خیلی تمیزتر دیده بشه
