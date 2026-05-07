@@ -2,12 +2,12 @@
     
     A simple backend project built with **Django**, **DRF**, **Elasticsearch**, and **Kibana** for managing, searching, and indexing store data.
     
-    <p align="center">
+ <p align="center">
       <img src="https://img.shields.io/badge/Django-4.x-092E20?style=for-the-badge&logo=django&logoColor=white" />
       <img src="https://img.shields.io/badge/DRF-REST%20API-red?style=for-the-badge" />
       <img src="https://img.shields.io/badge/Elasticsearch-Search-005571?style=for-the-badge&logo=elasticsearch" />
       <img src="https://img.shields.io/badge/Kibana-Analytics-652D90?style=for-the-badge&logo=kibana" />
-    </p>
+</p>
     
     ---
     
@@ -56,7 +56,5 @@
     - Kibana: `http://localhost:5601`
     
     ---
-
-- بخش API endpoints کوتاه
 
 اگر خواستی، مرحله بعدی برات **نسخه نهایی GitHub-ready و خیلی خفن** می‌سازم.
