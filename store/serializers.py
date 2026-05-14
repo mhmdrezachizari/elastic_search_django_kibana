@@ -1,7 +1,15 @@
-from rest_framework import serializers
-from .models import Product
+# serializers.py
 
-class ProductSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Product
-        fields = '__all__'
+from rest_framework import serializers
+
+
+class ProductSearchSerializer(serializers.Serializer):
+    id = serializers.IntegerField()
+    title = serializers.CharField()
+    description = serializers.CharField(
+        allow_blank=True,
+        allow_null=True
+    )
+    price = serializers.IntegerField()
+    is_active = serializers.BooleanField()
+    created_at = serializers.DateTimeField()
