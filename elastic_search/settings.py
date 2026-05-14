@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django_elasticsearch_dsl",
     'store',
     'django.contrib.admin',
+    'accounts.apps.AccountsConfig'
 ]
 
 MIDDLEWARE = [
